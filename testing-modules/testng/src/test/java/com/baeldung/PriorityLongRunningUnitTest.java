@@ -8,7 +8,7 @@ public class PriorityLongRunningUnitTest {
 
     @Test(priority = 1)
     public void givenString_whenChangedToInt_thenCorrect() {
-        String testString = "10";
+        String testString = "10S";
         assertTrue(Integer.valueOf(testString) instanceof Integer);
     }
 
